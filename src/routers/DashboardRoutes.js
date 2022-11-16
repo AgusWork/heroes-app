@@ -9,7 +9,7 @@ const DashboardRoutes = () => {
   return (
     <>
       <NavBar/>
-      <div className='container'>
+      <div  style={{ background: "url(/marvelvsdc.jpg) no-repeat", backgroundSize:"100% 100%" , padding:"50px", minHeight:"100vh" }}>
 
       <Routes>
           <Route path='marvel' element={<MarvelScreen />}></Route>

@@ -11,15 +11,15 @@ const HeroCard = ({
 
   const imagePath= `/assets/heroes/${id}.jpg`
   return (
-    <div className="col">
-      <div className="card">
+    <div className="col" style={{marginBottom:"20px"}}>
+      <div className="card" style={{width:"250px"}}>
           <div className="row no-gutters">
-            <div className="col-4">
+            <div className="col-12">
               <img src={imagePath} className="card-img" alt={superhero} />
             </div>
 
-            <div className="col-8">
-              <div className="card-body">
+            <div className="col-12">
+              <div className="card-body" style={{width: "100%", height:"10rem"}}>
                 <h5 className="card-title">{superhero}</h5>
                 {/* <p className="card-text">{alter_ego}</p>
 
